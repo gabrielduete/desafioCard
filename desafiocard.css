@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.curso1{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 20px 10px rgba(2, 2, 2, 0.323);
+    width: 265px;
+}
+
+.curso1 img{
+    padding: 10px;
+    height: 50%;
+}
+
+.curso-info{
+    font-size: 24px;
+    display: block;
+    margin-left: 4%;
+    text-align:unset;
+    color: rgba(0, 0, 0, 0.796);
+}
+
+.curso-info p{
+    display: none;
+}
+
+.curso-preco{
+    margin-left: 25%;
+}
+
+.preco-de{
+    color: rgb(177, 21, 3);
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.preco-por{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
