@@ -3,11 +3,12 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.curso1{
-    margin: 10px;
+.curso1, .curso{
+    margin: 20px;
     background-color: white;
     box-shadow: 3px 3px 20px 10px rgba(2, 2, 2, 0.323);
     width: 265px;
+    display: inline-block;
 }
 
 .curso1 img{
@@ -15,6 +16,15 @@ body{
     height: 50%;
 }
 
+.curso img{
+    padding: 9px;
+    width: 90%;
+    height: 50%;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
 .curso-info{
     font-size: 24px;
     display: block;
