@@ -21,9 +21,11 @@ body{
     width: 90%;
     height: 50%;
 }
+
 p{
     font-size: 15px;
     font-weight: bold;
+    padding: 0;
 }
 .curso-info{
     font-size: 24px;
@@ -31,6 +33,24 @@ p{
     margin-left: 4%;
     text-align:unset;
     color: rgba(0, 0, 0, 0.796);
+}
+
+.curso-info h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.curso1 h4{
+    margin-bottom: 18px;
+}
+
+.curso-info p{
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.curso-preco{
+    margin-left: 25%;
 }
 
 .curso-info p{
